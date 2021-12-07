@@ -1,5 +1,5 @@
-# oc-project-3: In this project, a client requests that you build them a website to cater for their customers in the food service industry.
-The Cahlleng is thus as follows;
+# Oc-project-3: In this project, a client requests that you build them a website to cater for their customers in the food service industry.
+The Challenge is thus as follows;
 
 We would like to open our services in the French capital.
 ● Phase 1: Develop a site offering the menu of four great Parisian restaurants.
