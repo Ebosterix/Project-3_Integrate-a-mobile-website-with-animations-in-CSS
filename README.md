@@ -1,4 +1,4 @@
-# oc-project-3: This project is crafted in a way that a client requests tat you build them a website to cater for their customers in the food service industry.
+# oc-project-3: In this project, a client requests that you build them a website to cater for their customers in the food service industry.
 The Cahlleng is thus as follows;
 
 We would like to open our services in the French capital.
