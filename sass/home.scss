@@ -1,0 +1,196 @@
+@import "style";
+
+.banner-title {
+  text-align: center;
+  padding: 30px;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.banner-subtitle {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0 10px 0;
+}
+
+button {
+  //----------------to copy to other pages
+  display: block;
+  justify-content: center;
+  margin: 25px auto;
+  background: linear-gradient(#ff79da, #9356dc);
+  font-size: 15px;
+  color: white;
+  border-radius: 30px;
+  width: 60%;
+  padding: 15px;
+  border: none;
+}
+
+button:hover {
+  //----------------to copy to other pages
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fface8),
+    to(#ae80e5)
+  );
+
+  background: linear-gradient(#fface8, #ae80e5);
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(12, 12, 12, 0.1);
+  box-shadow: 0px 10px 10px 0px rgba(12, 12, 12, 0.1);
+}
+
+.how-it-works {
+  padding: 30px 0 5px 30px;
+  margin: 10px auto;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 20px;
+  height: 3.5em;
+  width: 80%;
+  margin: 15px auto;
+  display: flex;
+  background-color: rgb(241, 241, 241);
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(12, 12, 12, 0.1);
+  box-shadow: 0px 10px 10px 0px rgba(12, 12, 12, 0.1);
+  background: rgba(174, 128, 229, 0.2);
+}
+
+i {
+  padding: 1px 5px;
+  justify-content: center;
+}
+
+.label {
+  font-size: l6px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: #9356dc;
+  color: #fff;
+  margin: 14px 0 0 -12px;
+  text-align: center;
+}
+
+.btn-icons {
+  margin: 15px 0 0 10px;
+}
+
+.label {
+  margin: 15px 0 0 10px;
+}
+
+.restaurants {
+  background-color: $background;
+  min-height: 350px;
+  padding: 10px 0 50px;
+
+  margin-top: 4em;
+
+  //margin-bottom: 10%;
+}
+
+.restau-box {
+  border-radius: 15px;
+  min-height: 100%;
+  min-width: 350px;
+  margin: 10px;
+  background-color: greenyellow;
+  border: 1px solid red;
+}
+
+
+.text-block {
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  bottom: 35px;
+  right: 5px;
+  background-color: #99e2d0;
+  color: #068a6a;
+  margin: 7.5em 3px;
+  border-radius: 3px;
+}
+
+.text-block h5 {
+  position: relative;
+  left: 6px;
+  top: 6px;
+  text-align: center;
+}
+
+.rest-subtitle {
+  display: block;
+  font-size: 23px;
+  font-weight: bolder;
+  width: 60%;
+  padding: 15% 0 2% 10%;
+}
+
+.rest-container {
+  height: 150px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.rest-container img {
+  height: 150px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+.restau-desc {
+  padding: 10px;
+  display: flex;
+  border: 1px solid red;
+}
+
+.r-desc {
+  width: 90%;
+  text-align: left;
+  color: black;
+  font-size: large;
+  //font-weight: 500;
+
+  border: 1px solid blue;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.r-heart {
+  width: 10%;
+  border: 1px solid orangered;
+  margin-left: 2em;
+}
+
+
+.r-heart .heart-f {
+  display: none;
+}
+
+.r-heart:hover .heart-o {
+  display: none;
+}
+
+.r-heart:hover .heart-f{
+  display: block;
+ 
+}

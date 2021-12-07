@@ -7,14 +7,33 @@
 }
 
 /*******COLORS*******/
+
+$primary: #9356dc;
+$secondary: #ff79da;
+$tertiary: #063b2e;
+$background: #f6f6f6;
+$font-family:'Shrikhand', 'cursive';
+$link:#ffffff;
+$button-backround: linear-gradient(#ff79da, #9356dc);
+
+
+
+
+
+
+
+
 header {
   min-height: 400px;
-  background-color: #f6f6f6;
+  background-color: $background;
 }
+
+
 
 .logo {
   display: block;
   margin: auto;
+  //justify-content: center;
   height: 30px;
   padding: 15px 0 10px;
 }
@@ -22,6 +41,7 @@ header {
 .address {
   height: 30px;
   justify-content: center;
+  //text-align: center;
   background-color: #eaeaea;
   font-size: 16px;
   font-weight: 500;
@@ -33,9 +53,10 @@ i {
 }
 
 a:link {
-  color: #ffffff;
+  color:$link;
   text-decoration: none;
 }
+
 
 footer {
   min-height: 250px;
@@ -59,10 +80,9 @@ footer ul {
 
 footer ul li {
   margin: 15px;
-}
 
+}
+ 
 footer ul li i {
   padding-right: 6px;
 }
-
-/*# sourceMappingURL=style.css.map */
