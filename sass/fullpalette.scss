@@ -42,6 +42,8 @@ main {
   width: 100%;
 }
 
+
+
 .menu-title i {
   margin-top: 2px;
   width: 30px;
@@ -56,6 +58,7 @@ main {
 }
 
 .underline {
+  padding-bottom: 5px;
   border-bottom: 3px solid #99e2d0;
   line-height: 30px;
 }
@@ -70,20 +73,27 @@ main {
   overflow: hidden;
 }
 
+
 .menu-desc {
   padding: 9px;
   display: flex;
 }
 
+
+
 .sub-menu {
   display: flex;
 }
+
+
 
 .sub-menu :first-child {
   display: block;
   padding: 0 5px 0 9px;
   width: 84%;
 }
+
+
 
 .sub-menu :nth-child(2) {
   display: block;

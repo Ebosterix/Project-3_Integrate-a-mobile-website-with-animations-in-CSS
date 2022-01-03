@@ -108,15 +108,16 @@ main {
 }
 
 .menu-title i {
-  margin-top: 5px;
-  width: 40px;
-  padding-left: 40%;
+  margin-top: 2px;
+  width: 30px;
+  padding-left: 10%;
 }
 
 .menu-content {
   padding: 5px 0 0 20px;
   margin-top: 20px;
   font-weight: lighter;
+  -webkit-animation: fadein 2s;
 }
 
 .underline {
@@ -131,6 +132,8 @@ main {
   width: 95%;
   margin: 10px auto;
   background-color: #fff;
+  animation: dish-load 1000ms ease-in;
+  overflow: hidden;
 }
 
 .menu-desc {
@@ -151,14 +154,10 @@ main {
 .sub-menu :nth-child(2) {
   display: block;
   padding: 0 5px 0 3px;
-  width: 10%;
+  width: 20%;
   font-weight: bold;
 }
 
-/*.btn-box {
-  min-height: 130px;
-
-}*/
 button {
   display: block;
   margin: 50px auto;
@@ -178,6 +177,47 @@ button:hover {
   background: linear-gradient(#fface8, #ae80e5);
   -webkit-box-shadow: 0px 10px 10px 0px rgba(12, 12, 12, 0.1);
   box-shadow: 0px 10px 10px 0px rgba(12, 12, 12, 0.1);
+}
+
+@keyframes dish-load {
+  0% {
+    color: white;
+    box-shadow: 0 10px 10px 0 white;
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.check {
+  width: 60px;
+  height: 40px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #99e2d0;
+  margin-top: -37px;
+  padding-top: 25px;
+  margin-right: -65px;
+  transition: margin-right 1500ms ease;
+}
+.check .fas {
+  transition: transform 1500ms ease 100ms;
+  color: #fff;
+}
+
+.sub-menu:hover .check {
+  margin-right: 0px;
+}
+.sub-menu:hover .check .fas {
+  transform: 1500ms rotate(-300deg);
 }
 
 /*# sourceMappingURL=bastille.css.map */
