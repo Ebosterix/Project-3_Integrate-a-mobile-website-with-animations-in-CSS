@@ -42,8 +42,6 @@ main {
   width: 100%;
 }
 
-
-
 .menu-title i {
   margin-top: 2px;
   width: 30px;
@@ -73,27 +71,20 @@ main {
   overflow: hidden;
 }
 
-
 .menu-desc {
   padding: 9px;
   display: flex;
 }
 
-
-
 .sub-menu {
   display: flex;
 }
-
-
 
 .sub-menu :first-child {
   display: block;
   padding: 0 5px 0 9px;
   width: 84%;
 }
-
-
 
 .sub-menu :nth-child(2) {
   display: block;
@@ -166,16 +157,22 @@ button:hover {
   padding-top: 25px;
   margin-right: -65px;
   transition: margin-right 1500ms ease;
+  transform: scale(1.2);
 
-  .fas {
-    transition: transform 1500ms ease 100ms;
-    color: #fff;
+  /* .fas {
+    transform: rotate(-360deg);
+    transition: transform 500ms ease-in;
+    color: rgb(206, 24, 24);
   }
+}
+*/
 }
 
 .sub-menu:hover .check {
   margin-right: 0px;
   .fas {
-    transform: 1500ms rotate(-300deg);
+    transform: rotate(-360deg);
+    transition: transform 500ms ease-in-out;
+    color: #fface8;
   }
 }

@@ -247,6 +247,7 @@ a:link {
 .r-heart:hover .heart-f {
   display: block;
   -webkit-animation: fadein 2s;
+ 
 }
 
 @keyframes fadein {
@@ -255,6 +256,53 @@ a:link {
   }
   to {
     opacity: 1;
+  }
+}
+.load-bg {
+  width: 100%;
+  height: 20000px;
+  z-index: 1000;
+  background-color: #000;
+  position: fixed;
+  animation: fade-out-loader 3s forwards;
+  padding-top: 20%;
+}
+
+.loader {
+  margin: 10px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 15px solid #9356dc;
+  border-top: 15px double #99e2d0;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes fade-out-loader {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  75% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1000;
   }
 }
 
