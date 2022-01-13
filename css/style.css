@@ -43,25 +43,29 @@ footer {
   min-height: 250px;
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 5px;
+  display: flex;
 }
 
 .footer_logo {
-  padding: 10px 0 0 10px;
-  font-style: italic;
-  margin: 10px 0 0 10px;
+  padding: 5px 0 0 5px;
+  font-family: "Shrikhand", "cursive";
+  font-size: 20px;
 }
 
+
 footer ul {
-  padding-top: 10px;
-  margin: 0px 0 0 10px;
+  padding-top: 5px;
+  margin: 0px 0 0 5px;
   list-style: none;
   color: #ffffff;
 }
 
 footer ul li {
-  margin: 15px;
+  margin: 5px;
+  font-size: 12px;
 }
+
 
 footer ul li i {
   padding-right: 6px;
